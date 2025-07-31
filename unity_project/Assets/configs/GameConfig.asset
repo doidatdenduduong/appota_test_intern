@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407952d9f8624336b3a114d7bd70eeb3, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  ray_distance: 1000
+  ray_mask:
+    serializedVersion: 2
+    m_Bits: 1
+  color_and_mats:
+  - color_id: 2
+    material: {fileID: 2100000, guid: b034a847d1aba4d0bb5aed6c963d414b, type: 2}
+  - color_id: 3
+    material: {fileID: 2100000, guid: 50a9aec314a9c4b75b352f3d38cb7302, type: 2}
+  - color_id: 4
+    material: {fileID: 2100000, guid: 4927347c542694404af9abc3e82a5487, type: 2}
+  - color_id: 1
+    material: {fileID: 2100000, guid: 0ebbf9c008f304641a336fb9df011d8e, type: 2}
+  - color_id: 5
+    material: {fileID: 2100000, guid: 4ce86c047d0b14dc2bf3186476251038, type: 2}
+  offset_y_stack: 0.5
+  nut_scale: {x: 1, y: 1, z: 1}
+  nut_scale_multiplier: 1.5
+  level_designs:
+  - {fileID: 11400000, guid: f69cc5196fbae49f0b02eb1776ced512, type: 2}
+  - {fileID: 11400000, guid: ec370f2e8e5104cf2beb93b5e796b21b, type: 2}
+  - {fileID: 11400000, guid: 8f28162c8aa5b4b2b90da01fc7bc70e5, type: 2}
+  - {fileID: 11400000, guid: 248d713e9b6d84ebfa5ded942bce9495, type: 2}
+  - {fileID: 11400000, guid: 61e410613bf0c42088ba2ffc2e882452, type: 2}
+  - {fileID: 11400000, guid: 12968ad50f64b4ed8bc1db284b541185, type: 2}
+  - {fileID: 11400000, guid: 9be2b197073474616b7f68e752d4052c, type: 2}
+  - {fileID: 11400000, guid: ead03584b255a46f7b4fefb55430bd48, type: 2}
+  - {fileID: 11400000, guid: c6900668abb874d13b80c681b18dfe9f, type: 2}
+  - {fileID: 11400000, guid: 52c2134f29fcb42f68553c61f5033034, type: 2}
+  - {fileID: 11400000, guid: b6a01d2f301f545dabd7e9b0acfc26f0, type: 2}
+  - {fileID: 11400000, guid: 5203423039e8f43ac84b7fda2ce97ba2, type: 2}
+  - {fileID: 11400000, guid: 2a8ef2e59aeca4a6c9e9397c62230a72, type: 2}
+  - {fileID: 11400000, guid: 322814f8af8d5450e8e1014eb227ccd3, type: 2}
+  - {fileID: 11400000, guid: a2e70ce6ef6334e0d912a6cdf7d18503, type: 2}
+  - {fileID: 11400000, guid: bdb330461016c490bbd9a6a9b3cae729, type: 2}
+  - {fileID: 11400000, guid: 0fdf05f284ad142e2b11ed2b0e70cee2, type: 2}
+  - {fileID: 11400000, guid: 2c07bc1c60b1945e5a80a1a1f8741584, type: 2}
+  - {fileID: 11400000, guid: c525dd39149e34d9aa580616cea5e17a, type: 2}
+  - {fileID: 11400000, guid: b9dbb8155b4fa46ba88e902340ac7c0d, type: 2}
+  move_duration: 0.5
+  rotate_duration: 0.5
+  rotate_speed: 720
+  nut_prefab: {fileID: 6496292319442270404, guid: 929b1f9dca7054f9da1e718d35ee5c5f, type: 3}
+  pillar_prefab: {fileID: 3749948530022417377, guid: c21cb840326bf4e4c888f5ebe0601888, type: 3}
